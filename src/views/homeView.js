@@ -5,6 +5,9 @@ import {
 import {
   navSelect
 } from "./navLightUp.js";
+import {
+  prevExp
+} from './prevExperience.js';
 
 export function homeView(event) {
   document.body.style.backgroundImage = `url(images/background.png)`
@@ -21,6 +24,8 @@ export function homeView(event) {
   </section>`
 
   render(homeViewTemplate(), main)
+  const buttonCreator = document.getElementById('creator-journey');
+  buttonCreator.addEventListener('click', prevExp)
 
   navSelect('home')
 }
