@@ -4,4 +4,4 @@ A simple portfolio website which demonstrates different techniques of building w
 
 It is work in progress and will be updated regularly.
 
-Check it out at:
+Check it out at: https://pbelyanov.github.io/Portfolio-CV-Page/
