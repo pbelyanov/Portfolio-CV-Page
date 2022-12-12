@@ -4,7 +4,7 @@ import {
 import {
   html,
   render
-} from "../../node_modules/lit-html/lit-html.js"
+} from 'https://unpkg.com/lit-html?module'
 export function aboutMeView(event) {
   document.body.style.backgroundImage = `url(../images/background-aboutMe.png)`
   navSelect('aboutMe');
