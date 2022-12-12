@@ -27,9 +27,9 @@ export function prevExp() {
             <div id="professional">
             <h1>Professional Experience</h1>
             <div><h4>10/2021 - Present</h4><h4>Complaints Handling Officer at Crypto.com</h4><p>Takes ownership and accountability in projects, related to the evolution of the complaints-related processes, reporting and other tools;Thoroughly considers any (potential) service-related complaints, escalated via the supported communication channels and handles it according to Company’s internal complaints handling process;</p></div>
-            <div><h4>10/2020 - 08/2021</h4><h4>Retention Specialist</h4><p>Retaining the current customers of the company, providing outstanding customer experience to keep up to company standarts and updating customers daily on new trends in the crypto market. Communicating with 30-50 clients on a daily base both on the phone and through email and chat. 
+            <div><h4>10/2020 - 08/2021</h4><h4>Retention Specialist at Red Tape Services</h4><p>Retaining the current customers of the company, providing outstanding customer experience to keep up to company standarts and updating customers daily on new trends in the crypto market. Communicating with 30-50 clients on a daily base both on the phone and through email and chat. 
 </p></div>
-            <div><h4>09/2018 - 10/2020</h4><h4>Retention Specialist</h4><p>Responsible for retaining the current customers of the company and providing outstanding customer experience to keep up to company standarts.
+            <div><h4>09/2018 - 10/2020</h4><h4>Retention Specialist at BGCS Media</h4><p>Responsible for retaining the current customers of the company and providing outstanding customer experience to keep up to company standarts.
 </p></div>
 
             </div>
