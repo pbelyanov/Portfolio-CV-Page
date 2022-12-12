@@ -3,7 +3,7 @@ body {
     width: 100%;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     background: #1a1e23;
-    background-image: url(../images/background.png);
+    /* background-image: url(/src/views/background.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
