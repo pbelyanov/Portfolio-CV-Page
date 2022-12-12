@@ -8,7 +8,7 @@ import {
 
 export function homeView(event) {
   document.body.style.backgroundImage = `url(images/background.png)`
-  console.log('123')
+
   const main = document.getElementsByTagName('main')[0];
   const homeViewTemplate = () => html `<section id="homePage">
 

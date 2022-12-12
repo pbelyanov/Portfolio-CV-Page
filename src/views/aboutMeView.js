@@ -6,7 +6,7 @@ import {
   render
 } from 'https://unpkg.com/lit-html?module'
 export function aboutMeView(event) {
-  document.body.style.backgroundImage = `url(/images/background-aboutMe.png)`
+  document.body.style.backgroundImage = `url(images/background-aboutMe.png)`
   navSelect('aboutMe');
   const main = document.getElementsByTagName('main')[0];
 

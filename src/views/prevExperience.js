@@ -7,7 +7,7 @@ import {
 } from 'https://unpkg.com/lit-html?module'
 
 export function prevExp() {
-    document.body.style.backgroundImage = `url(/images/background-aboutMe.png)`;
+    document.body.style.backgroundImage = `url(images/background-aboutMe.png)`;
     navSelect('prevExp');
     const main = document.getElementsByTagName('main')[0];
 
