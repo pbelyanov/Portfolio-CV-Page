@@ -10,6 +10,8 @@ import {
 } from './prevExperience.js';
 
 export function homeView(event) {
+
+
   document.body.style.backgroundImage = `url(images/background.png)`
 
   const main = document.getElementsByTagName('main')[0];

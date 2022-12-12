@@ -6,7 +6,8 @@ import {
     render
 } from 'https://unpkg.com/lit-html?module'
 
-export function prevExp() {
+export function prevExp(event) {
+
     document.body.style.backgroundImage = `url(images/background-aboutMe.png)`;
     navSelect('prevExp');
     const main = document.getElementsByTagName('main')[0];
