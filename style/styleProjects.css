@@ -1,0 +1,44 @@
+#projectSection {
+    height: 888px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projectSection h1 {
+    color: white;
+    font-size: 48px;
+    padding-right: 35px;
+}
+
+#mainContainerProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 100px;
+    padding-right: 35px;
+    padding-bottom: 193px;
+}
+
+#img-box {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+img {
+    height: 380px;
+    width: 589px;
+    border-radius: 5px;
+    display: none;
+}
+
+button {
+    font-size: 30px;
+    background-color: rgba(103, 103, 180, 0.3);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
