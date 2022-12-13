@@ -17,7 +17,7 @@ export function homeView(event) {
   const main = document.getElementsByTagName('main')[0];
   const homeViewTemplate = () => html `<section id="homePage">
     <div id="homePageView">
-    <h1>Hey! It's Petar Belaynov...</h1>
+    <h1>Hey! It's Petar Belyanov...</h1>
     <p>
         A beginner web developer with a sales & complaints handling background.
     </p>
