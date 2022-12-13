@@ -3,12 +3,9 @@ body {
     width: 100%;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     background: #1a1e23;
-    /* background-image: url(/src/views/background.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 nav {
@@ -62,10 +59,14 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     padding-top: 200px;
-    align-items: flex-start;
+    align-items: flex-end;
     height: 740px;
     gap: 5px;
-    margin-left: 1030px;
+}
+
+#homePageView {
+    margin-right: 140px;
+
 }
 
 
