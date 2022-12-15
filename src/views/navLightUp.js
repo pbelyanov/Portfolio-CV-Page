@@ -1,18 +1,18 @@
 export function navSelect(event) {
-    document.getElementById('home').style.borderBottom = 'none';
-    document.getElementById('home').style.color = 'white';
+    document.getElementById('home').style.borderBottom = '';
+    document.getElementById('home').style.color = '';
 
-    document.getElementById('aboutMe').style.borderBottom = 'none';
-    document.getElementById('aboutMe').style.color = 'white';
+    document.getElementById('aboutMe').style.borderBottom = '';
+    document.getElementById('aboutMe').style.color = '';
 
-    document.getElementById('prevExp').style.borderBottom = 'none';
-    document.getElementById('prevExp').style.color = 'white';
+    document.getElementById('prevExp').style.borderBottom = '';
+    document.getElementById('prevExp').style.color = '';
 
-    document.getElementById('projects').style.borderBottom = 'none';
-    document.getElementById('projects').style.color = 'white';
+    document.getElementById('projects').style.borderBottom = '';
+    document.getElementById('projects').style.color = '';
 
-    document.getElementById('contact').style.borderBottom = 'none';
-    document.getElementById('contact').style.color = 'white';
+    document.getElementById('contact').style.borderBottom = '';
+    document.getElementById('contact').style.color = '';
 
     switch (event) {
         case 'home':

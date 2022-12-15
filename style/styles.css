@@ -48,6 +48,7 @@ nav a {
     font-size: 18px;
 }
 
+
 nav a:hover {
     color: #7867b4;
     transition-duration: 0.2s;
