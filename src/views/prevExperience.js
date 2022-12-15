@@ -17,11 +17,11 @@ export function prevExp(event) {
         <div id="mainFrame">
             <div id="education">
                 <h1>Education</h1>
-                <div><h4>07/12/2022</h4><p>Acquired JS Applications <a href="https://softuni.bg/certificates/details/149951/69cc6465">&lt;certificate&gt;</a> with 6.00/6.00. 
+                <div><h4>07/12/2022</h4><p>Acquired JS Applications <a href="https://softuni.bg/certificates/details/149951/69cc6465" target="_blank" rel="noreferrer noopener">&lt;certificate&gt;</a> with 6.00/6.00. 
                 </p></div>
-                <div><h4>27/10/2022</h4><p>Acquired JS Advanced <a href="https://softuni.bg/Certificates/Details/145556/507df4a6">&lt;certificate&gt;</a> with 6.00/6.00. 
+                <div><h4>27/10/2022</h4><p>Acquired JS Advanced <a href="https://softuni.bg/Certificates/Details/145556/507df4a6" target="_blank" rel="noreferrer noopener">&lt;certificate&gt;</a> with 6.00/6.00. 
                 </p></div>
-                <div><h4>30/08/2021</h4><p>Acquired EFSET/CEFR english <a href="https://www.efset.org/cert/Fz2SYT">&lt;certificate&gt;</a> with level C2. 
+                <div><h4>30/08/2021</h4><p>Acquired EFSET/CEFR english <a href="https://www.efset.org/cert/Fz2SYT" target="_blank" rel="noreferrer noopener">&lt;certificate&gt;</a> with level C2. 
                 </p></div>
                 <div><h4>2019-Present</h4><p>Studying Finance and Business at University of National and World Economy.</p></div>
             </div>
