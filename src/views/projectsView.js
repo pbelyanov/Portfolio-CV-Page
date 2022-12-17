@@ -5,6 +5,9 @@ import {
     html,
     render
 } from 'https://unpkg.com/lit-html?module'
+import {
+    weatherAPP
+} from "../weather_app/weather.js";
 
 export function projectsView(event) {
     document.body.style.backgroundImage = `url(images/background-projects.png)`
@@ -59,6 +62,7 @@ export function projectsView(event) {
         document.getElementsByTagName('img')[i].style.display = 'block'
     }
 
+    document.getElementById('img1').addEventListener('click', weatherAPP)
 
 
 }
