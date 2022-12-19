@@ -5,7 +5,7 @@ export function weatherCard(code) {
         fog: `<i class="fa-solid fa-smog"></i>`,
         drizzle: `<i class="fa-solid fa-cloud-sun-rain"></i>`,
         rain: `<i class="fa-solid fa-cloud-showers-heavy"></i>`,
-        freezingRain: `<i class="fa-sharp fa-solid fa-cloud-sleet"></i>`,
+        freezingRain: `<i class="fa-solid fa-cloud-meatball"></i>`,
         snow: `<i class="fa-solid fa-snowflake"></i>`,
         thunderStorm: `<i class="fa-solid fa-cloud-bolt"></i>`,
     };

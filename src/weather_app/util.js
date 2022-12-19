@@ -23,7 +23,6 @@ export async function getCity() {
 
     const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lon}&key=AIzaSyB0n8gzIoTQy5GhbGiWZfO_aszOqWcLxY8&language=english`)
     const cityData = await response.json();
-    console.log(cityData)
     return cityData;
 }
 
@@ -66,14 +65,6 @@ export function searchLocation(event) {
                 console.log("Returned place contains no geometry");
                 return;
             }
-
-            const icon = {
-                url: place.icon,
-                size: new google.maps.Size(71, 71),
-                origin: new google.maps.Point(0, 0),
-                anchor: new google.maps.Point(17, 34),
-                scaledSize: new google.maps.Size(25, 25),
-            };
             if (place.geometry.viewport) {
                 // Only geocodes have viewport.
                 bounds.union(place.geometry.viewport);
@@ -81,7 +72,6 @@ export function searchLocation(event) {
                 bounds.extend(place.geometry.location);
             }
         });
-        console.log(bounds);
         sessionStorage.setItem('Latitude', (bounds.Wa.hi + bounds.Wa.lo) / 2);
         sessionStorage.setItem('Longitude', (bounds.Ia.hi + bounds.Ia.lo) / 2);
         weatherAPP();
