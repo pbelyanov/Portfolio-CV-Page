@@ -8,20 +8,24 @@ import {
 import {
     getPosition,
     getCity,
-    getWeather
+    getWeather,
+    searchLocation
 } from "./util.js";
 
+await getPosition();
 
 
 export async function weatherAPP(event) {
-    event.preventDefault();
+    // event.preventDefault();
     weatherView();
-    await getPosition();
+    searchLocation();
     const data = await getWeather();
     const forecast = data[0];
     const currentWeather = data[1];
 
     let target = document.getElementById('future-forecast');
+    target.innerHTML = '';
+
 
     for (let row in forecast) {
         const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -39,7 +43,7 @@ export async function weatherAPP(event) {
 
 
     document.getElementById('current-weather').innerHTML = `
-    <h1>Current Conditions in ${cityName.results[8].formatted_address}</h1>
+    <h1>Current Conditions in ${cityName.results[0].address_components[3].long_name}</h1>
 
         ${iconCurrWeather.icon}
         <div>Current temperature: ${currentWeather.temperature}&#176;</div>

@@ -13,7 +13,14 @@ export function weatherView(event) {
         <div id="appContainer">
             <div id="top-box">
                 <div id="current-weather"></div>
-                <div id="search"></div>
+                <div id="search">
+                    <input
+                        id="pac-input"
+                        class="controls"
+                        type="text"
+                        placeholder="Search Box"
+                    />
+                </div>
             </div>
             <div id="future-forecast"></div>
         </div>
