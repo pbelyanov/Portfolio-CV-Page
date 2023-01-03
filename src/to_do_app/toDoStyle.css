@@ -1,0 +1,72 @@
+#toDoView {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    height: 888px;
+    color: white;
+}
+
+#mainBoxToDoApp {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#addTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#addTask button {
+    padding: 8px 16px;
+}
+
+#addTask button:hover {
+    cursor: pointer;
+}
+
+#listOfTasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boxTasks h2 {
+    margin: 0px;
+
+}
+
+#boxTasks {
+    background-color: rgb(32, 33, 57);
+    border-radius: 10px;
+    padding: 5px 5px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    align-content: space-between;
+    gap: 5px;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    gap: 5px;
+    align-items: center;
+}
+
+.tasks button {
+    font-size: 20px;
+    height: 40px;
+}
+
+.tasks button:hover {
+    cursor: pointer;
+    background-color: rgb(74, 74, 121);
+}

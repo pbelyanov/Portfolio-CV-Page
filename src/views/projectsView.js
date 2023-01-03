@@ -8,6 +8,9 @@ import {
 import {
     weatherAPP
 } from "../weather_app/weather.js";
+import {
+    toDoApp
+} from "../to_do_app/toDoApp.js";
 
 export function projectsView(event) {
     document.body.style.backgroundImage = `url(images/background-projects.png)`
@@ -63,6 +66,6 @@ export function projectsView(event) {
     }
 
     document.getElementById('img1').addEventListener('click', weatherAPP)
-
+    document.getElementById('img2').addEventListener('click', toDoApp)
 
 }
