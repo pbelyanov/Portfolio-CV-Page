@@ -22,7 +22,7 @@ export function projectsView(event) {
 
     const projects = () => html `
     <section id='projectSection'>
-        <h1>PROJECTS (under construction)</h1>
+        <h1>PROJECTS</h1>
         <div id="mainContainerProjects">
             <div><button id="previous">&lt;</button></div>
             <div id="img-box">
