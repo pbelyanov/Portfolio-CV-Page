@@ -46,6 +46,7 @@ export function calc() {
     }
 
     document.onkeydown = function (event) {
+        console.log(event)
         let pressedKey = event.key
         let isNum = false
         let isOperrand = false
@@ -87,6 +88,10 @@ export function calc() {
             if (document.getElementById('topOfScreen').innerHTML !== '' && document.getElementById('botOfScreen').innerHTML !== '') {
                 equals()
             }
+        } else if (pressedKey === 'Backspace') {
+            let num = document.getElementById('botOfScreen').innerHTML
+            num = num.substring(0, num.length - 1);
+            document.getElementById('botOfScreen').innerHTML = num;
         } else {
             console.log(pressedKey);
             return
