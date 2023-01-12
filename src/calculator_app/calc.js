@@ -45,6 +45,55 @@ export function calc() {
 
     }
 
+    document.onkeydown = function (event) {
+        let pressedKey = event.key
+        let isNum = false
+        let isOperrand = false
+        const nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, '.']
+        const operrands = ['/', '*', '+', '-']
+        for (let row of nums) {
+            if (pressedKey == row) {
+                isNum = true
+            }
+        }
+
+        for (let row of operrands) {
+            if (pressedKey == row) {
+                isOperrand = true
+            }
+        }
+
+        if (isNum) {
+            console.log(pressedKey)
+            if (document.getElementById('botOfScreen').innerHTML === '0' && pressedKey !== '.') {
+                document.getElementById('botOfScreen').innerHTML = ''
+            }
+            if (pressedKey === '.') {
+                if (document.getElementById('botOfScreen').innerHTML.includes('.')) {
+                    return
+                }
+            }
+            document.getElementById('botOfScreen').innerHTML += pressedKey
+        } else if (isOperrand) {
+            if (document.getElementById('topOfScreen').innerHTML !== '') {
+                equals()
+            }
+            firstNumber = Number(document.getElementById('botOfScreen').innerHTML);
+            operrand = pressedKey;
+            document.getElementById('topOfScreen').innerHTML = `${firstNumber} ${operrand}`
+            document.getElementById('botOfScreen').innerHTML = ''
+
+        } else if (pressedKey === 'Enter') {
+            if (document.getElementById('topOfScreen').innerHTML !== '' && document.getElementById('botOfScreen').innerHTML !== '') {
+                equals()
+            }
+        } else {
+            console.log(pressedKey);
+            return
+        }
+
+    }
+
     function allClear(event) {
         document.getElementById('topOfScreen').innerHTML = ``
         document.getElementById('botOfScreen').innerHTML = '0'
