@@ -11,6 +11,9 @@ import {
 import {
     toDoApp
 } from "../to_do_app/toDoApp.js";
+import {
+    calc
+} from "../calculator_app/calc.js";
 
 export function projectsView(event) {
     document.body.style.backgroundImage = `url(images/background-projects.png)`
@@ -25,7 +28,7 @@ export function projectsView(event) {
             <div id="img-box">
                 <div id="img1"><img src="images/weather-app-logo.png"></div>
                 <div id="img2"><img src="images/to-do-app.jpg"></div>
-                <div id="img3"><img src="images/landscape-test.jpg"></div>
+                <div id="img3"><img src="images/calc-image.jpg"></div>
             </div>
             <div><button id="next">&gt</button></div>
 
@@ -67,5 +70,6 @@ export function projectsView(event) {
 
     document.getElementById('img1').addEventListener('click', weatherAPP)
     document.getElementById('img2').addEventListener('click', toDoApp)
+    document.getElementById('img3').addEventListener('click', calc)
 
 }
