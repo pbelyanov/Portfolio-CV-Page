@@ -46,7 +46,6 @@ export function calc() {
     }
 
     document.onkeydown = function (event) {
-        console.log(event)
         let pressedKey = event.key
         let isNum = false
         let isOperrand = false
